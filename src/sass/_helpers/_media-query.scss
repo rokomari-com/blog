@@ -1,0 +1,38 @@
+/*
+    Media Queries
+---------------------------------*/
+
+/* ----- Laptop size 960px or greater ----- */
+@mixin smallLaptop {
+    @media (min-width: 960px) {
+        @content;
+    }
+}
+
+/* ----- Laptop size 1200px or greater ----- */
+@mixin defaultLaptop {
+    @media (min-width: 1200px) {
+        @content;
+    }
+}
+
+/* ----- laptop size 1350px or greater ----- */
+@mixin largeLaptop {
+    @media (min-width: 1300px) {
+        @content;
+    }
+}
+
+/* ----- Desktop size 1400px or greater ----- */
+@mixin defaultDesktop {
+    @media (min-width: 1400px) {
+        @content;
+    }
+}
+
+/* ----- Desktop size 1600px or greater ----- */
+@mixin largeDesktop {
+    @media (min-width: 1600px) {
+        @content;
+    }
+}

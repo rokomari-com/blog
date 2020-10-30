@@ -1,0 +1,15 @@
+@mixin radius ($topLeft, $topRight, $bottomRight, $bottomLeft) {
+    -webkit-border-radius: $topLeft $topRight $bottomRight $bottomLeft;
+       -moz-border-radius: $topLeft $topRight $bottomRight $bottomLeft;
+        -ms-border-radius: $topLeft $topRight $bottomRight $bottomLeft;
+         -o-border-radius: $topLeft $topRight $bottomRight $bottomLeft;
+            border-radius: $topLeft $topRight $bottomRight $bottomLeft;
+}
+
+@mixin transition ($seconds, $elements, $effect) {
+    -webkit-transition: $seconds $elements $effect;
+       -moz-transition: $seconds $elements $effect;
+        -ms-transition: $seconds $elements $effect;
+         -o-transition: $seconds $elements $effect;
+            transition: $seconds $elements $effect;
+}
