@@ -4,19 +4,22 @@
   <img src="./src/assets/images/rokomari.jpg" alt="rokomari-logo" width="120px" height="120px"/>
   <br>
   <i>Rokomari Personal Blog is a free open source blog application
-    <br> which client side depends on react, react-router, scss, bootstrap and server side depends on express, mongoDB and so other stuff.</i>
+    <br> which client side depends on react, react-router, scss, bootstrap and server side depends on<br> express, mongoDB and so other stuff.</i>
   <br>
 </p>
 
 ## Table of Contents
 
 1. [Get Started](#get-started)
+2. [License](#license)
 
 ## Get Started
 ### Prerequisites
-In order to install Rokomari with React, the following prerequisites must be installed:
- - NPM 
- - Git
+In order to install Rokomari Personal Blog, the following prerequisites must be installed:
+```js
+$ npm
+$ git
+```
 
 ### Clone the Project
 1. Open your command line and run:
@@ -32,4 +35,18 @@ In order to install, the following steps must be taken:
 $  npm install
 $  npm start
 ```
+**[⬆ back to top](#table-of-contents)**
+
+## License
+
+(The MIT License)
+
+Copyright (c) 2020 Rokomari.com
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
 **[⬆ back to top](#table-of-contents)**
