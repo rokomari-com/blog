@@ -1,0 +1,6 @@
+@import './../../../sass/config.scss';
+
+.footer-text {
+    color: lighten($color: $primaryColor, $amount: 20);
+    padding: 1em 0em;
+}

@@ -91,9 +91,9 @@ $  npm start
     │       │       Header.js
     │       │       Header.scss
     │       │
-    │       └───Navbar
-    │               Navbar.js
-    │               Navbar.scss
+    │       └───Menu
+    │               Menu.js
+    │               Menu.scss
     │
     └───sass
         │   app.scss

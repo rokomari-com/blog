@@ -11,7 +11,9 @@ $hoverBgColor: #f7f7f7;
 
 $primaryBorderColor: #ccc;
 $secondaryBorderColor: #ddd;
-$borderBottom: 1px dotted $primaryBorderColor;
+
+$dottedBorder: 1px dotted $primaryBorderColor;
+$solidBorder: 1px solid $primaryBorderColor;
 
 // lighten($primaryColor, 6.67) = #444;
 // lighten($primaryColor, 20) = #666;
