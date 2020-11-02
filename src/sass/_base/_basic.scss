@@ -9,13 +9,12 @@ html {
 }
 
 body {
-    background-color: $bgColor;
     font-size: 0.875rem;
-    color: #000;
+    color: lighten($primaryColor, 6.67);
     font-weight: 400;
     text-rendering: optimizeLegibility;
-      -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 
     a {
         color: #333;

@@ -1,4 +1,5 @@
 @import "./../../sass/config.scss";
 h2 {
     font-family: $secondaryFont;
+    color : lighten($primaryColor, 20);
 }

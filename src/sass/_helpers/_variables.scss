@@ -3,16 +3,24 @@
 ---------------------------------*/
 
 $defaultColor: #FFF;
-$bgColor: #F1F2F4;
-
 $primaryColor: #333;
-$secondaryColor: #0397d3;
-$tertiaryColor: #666666;
+$secondaryColor: #aaa;
 
+$externalLinkColor: #CE6607;
+$hoverBgColor: #f7f7f7;
+
+$primaryBorderColor: #ccc;
+$secondaryBorderColor: #ddd;
+$borderBottom: 1px dotted $primaryBorderColor;
+
+// lighten($primaryColor, 6.67) = #444;
+// lighten($primaryColor, 20) = #666;
+// darken($primaryColor, 20.00) = #000; // hoverColor
 
 /*
     Font Family
 ---------------------------------*/
+
 $primaryFont: 'Lora', Georgia, sans-serif;
 $secondaryFont: 'Coustard', Georgia, sans-serif;
 
