@@ -3,7 +3,11 @@ import './Header.scss';
 
 const Header = () => {
     return (
-        <h2>Header is working....</h2>
+        <header>
+            <h1>
+                <a href="/">Ronnie's Blog</a>
+            </h1>
+        </header>
     );
 };
 

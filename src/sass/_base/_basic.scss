@@ -18,14 +18,17 @@ body {
 
     a {
         color: $primaryColor;
-        &:focus, &:active, &:link, &:hover {
+        &:focus,
+        &:active,
+        &:link,
+        &:hover {
             text-decoration: none;
             outline: none;
-            @include transition (0.5s, all, ease);
+            @include transition(0.5s, all, ease);
         }
 
         &:hover {
-            color: darken($primaryColor, 20.00);
+            color: darken($primaryColor, 20);
         }
     }
 
@@ -56,12 +59,20 @@ body {
         transition: all 0.3s ease-out 0s;
     }
 
-    input, button {
+    input,
+    button {
         border: none;
         background-color: transparent;
     }
 
-    input:focus, button:focus {
+    input:focus,
+    button:focus {
         outline: none;
+    }
+
+    // Common Styling
+    .App {
+        width: 80%;
+        margin: 0 auto;
     }
 }
