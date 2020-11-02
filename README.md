@@ -4,7 +4,7 @@
   <img src="./src/assets/images/rokomari.jpg" alt="rokomari-logo" width="120px" height="120px"/>
   <br>
   <i>Rokomari Personal Blog is a free open source blog application
-    <br> which client side depends on react, react-router, scss, bootstrap and server side depends on<br> express, mongoDB and so other stuff.</i>
+    <br> which client side depends on react, react-router, scss, bootstrap and server side depends on<br> express, mongoDB and some other stuff.</i>
   <br>
 </p>
 

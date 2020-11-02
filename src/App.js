@@ -1,10 +1,12 @@
 import React from 'react';
+import Footer from './components/Footer/Footer';
+import Header from './components/Header/Header';
 
 const App = () => {
   return (
-    <div className="jumbotron">
-      <h2 className="display-3">Rokomari Blog is working....</h2>
-      <p className="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis repudiandae quia aut quas totam asperiores sunt consectetur non itaque debitis.</p>
+    <div className="App">
+      <Header />
+      <Footer />
     </div>
   );
 }
