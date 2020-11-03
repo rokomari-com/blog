@@ -4,7 +4,7 @@
     padding: .3rem 1rem !important;
     align-items: center;
     font-family: $secondaryFont;
-    
+
     a.nav-link {
         color: $primaryColor !important;
         border-bottom: 1px solid transparent;
@@ -22,7 +22,7 @@
         // content: " ";
     }
     label {
-        padding: 10px 5px 10px 0px;
+        padding: 10px 5px 10px 1.25em;
         font-size: 0.9rem;
         cursor: text;
     }

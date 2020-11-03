@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <header>
             <h1>
-                <a href="/">Rokomari Blog</a>
+                <a href="/">Ronnie's Blog</a>
             </h1>
         </header>
     );
