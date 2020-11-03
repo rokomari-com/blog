@@ -1,10 +1,9 @@
 import React from 'react';
-import './PostContainer';
 
 const PostContainer = () => {
     return (
-        <div>
-            <p>PostContainer is working...</p>
+        <div className="my-4">
+            <p>post container is working...</p>
         </div>
     );
 };
