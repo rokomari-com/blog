@@ -71,7 +71,7 @@ body {
         outline: none;
     }
 
-    // Common Styling
+    /*** Common Styling Guide ***/
     .App {
         width: 80%;
         margin: 0 auto;
@@ -81,5 +81,28 @@ body {
     }
     .border-bottom {
         border-bottom: $solidBorder;
+    }
+    .hyperlink-btn {
+        color: $primaryColor;
+        border-bottom: $dottedBorder;
+        font-size: 0.8rem;
+        letter-spacing: 1px;
+
+        &:hover {
+            color: darken($primaryColor, 20);
+            background-color: $hoverBgColor;
+        }
+    }
+    .btn-more {
+        padding: 0.5em 3.25em;
+        color: lighten($primaryColor, 6.67);
+        font-size: 0.85rem;
+        border-bottom: $dottedBorder;
+        letter-spacing: 2px;
+
+        &:hover {
+            color: darken($primaryColor, 20);
+            background-color: $hoverBgColor;
+        }
     }
 }

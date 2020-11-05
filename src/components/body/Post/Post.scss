@@ -1,0 +1,45 @@
+@import "./../../../sass/config.scss";
+
+.post {
+    margin-top: 60px;
+    &--title {
+        a {
+            font-family: $secondaryFont;
+            font-size: 1.9rem;
+            padding: 3px 0px;
+            color: $primaryColor;
+
+            &:hover {
+                color: darken($primaryColor, 20);
+                background-color: $hoverBgColor;
+            }
+            &:focus {
+                border-bottom: $dottedBorder;
+            }
+        }
+    }
+    &--meta {
+        margin-top: 22px;
+        margin-bottom: 38px;
+
+        .meta-key {
+            color: $secondaryColor;
+            margin: 0;
+            font-size: 0.8rem;
+            letter-spacing: 1px;
+
+            &:first-child {
+                margin-left: 5px;
+            }
+
+            a {
+                margin: 0px 5px;
+            }
+        }
+    }
+    &--text {
+        text-align: left;
+        line-height: 1.6;
+        margin-bottom: 30px;
+    }
+}
