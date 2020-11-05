@@ -1,28 +1,35 @@
 @import "./../../../sass/config.scss";
 
 .rok-navbar {
-    padding: .3rem 1rem !important;
+    border-style: solid;
+    border-width: 1px 0;
+    border-color: #eee;
+    padding: .25rem 1rem !important;
     align-items: center;
     font-family: $secondaryFont;
-
     a.nav-link {
-        color: $primaryColor !important;
+        color: $primaryColor;
         border-bottom: 1px solid transparent;
         font-size: 0.9rem;
         display: inline-block;
-        margin: 0 1.25em;
+        margin: 0 1.4em;
         padding: 10px 0 !important;
         height: 32px;
         &:hover {
             border-bottom: $dottedBorder;
         }
     }
+    .home-btn {
+        color: #C30 !important;
+        margin-left: 0 !important;
+        padding-left: 0 !important;
+    }
     .dropdown-toggle::after {
         display: none;
         // content: " ";
     }
     label {
-        padding: 10px 5px 10px 1.25em;
+        padding: 10px 5px 10px 1.4em;
         font-size: 0.9rem;
         cursor: text;
     }

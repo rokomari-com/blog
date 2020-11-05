@@ -8,7 +8,7 @@ import './Menu.scss';
 
 const Menu = () => {
     return (
-        <Navbar expand="lg" className="border-top border-bottom rok-navbar">
+        <Navbar expand="lg" className="rok-navbar">
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="m-auto">
