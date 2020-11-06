@@ -4,15 +4,31 @@ import Menu from './components/layouts/Menu/Menu';
 import PostContainer from './components/body/PostContainer/PostContainer';
 import Footer from './components/layouts/Footer/Footer';
 import Pagination from './components/layouts/Pagination/Pagination';
+import SinglePost from './components/body/SinglePost/SinglePost';
+
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
 
 const App = () => {
   return (
     <div className="App">
-      <Header />
-      <Menu />
-      <PostContainer />
-      <Pagination />
-      <Footer />
+      <Router>
+        <Header />
+        <Menu />
+        <Switch>
+          <Route path="/post">
+            <SinglePost />
+          </Route>
+          <Route path="/">
+            <PostContainer />
+          </Route>
+        </Switch>
+        <Pagination />
+        <Footer />
+      </Router>
     </div>
   );
 }
