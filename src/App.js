@@ -11,6 +11,7 @@ import {
   Switch,
   Route
 } from "react-router-dom";
+import NotFound from './components/body/NotFound/NotFound';
 
 const App = () => {
   return (
@@ -22,8 +23,11 @@ const App = () => {
           <Route path="/post">
             <SinglePost />
           </Route>
-          <Route path="/">
+          <Route exact path="/">
             <PostContainer />
+          </Route>
+          <Route path="*">
+            <NotFound />
           </Route>
         </Switch>
         <Pagination />

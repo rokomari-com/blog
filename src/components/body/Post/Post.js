@@ -1,11 +1,14 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Post.scss';
 
 const Post = (props) => {
     const { title, metaData, text } = props.postData;
     return (
         <div className="post">
-            <h1 className="post--title"><a href="/">{title}</a></h1>
+            <h1 className="post--title">
+                <Link to="/post">{title}</Link>
+            </h1>
             <ul className="post--meta d-flex justify-content-center">
                 <li className="meta-key">posted in
                     <a href="/" className="hyperlink-btn">
@@ -24,7 +27,9 @@ const Post = (props) => {
                 </li>
             </ul>
             <p className="post--text">{text}</p>
-            <a href="/" className="btn-more">Continue reading <span className="meta-nav">→</span></a>
+            <Link to="/post" className="btn-more">
+                Continue reading <span className="meta-nav">→</span>
+            </Link>
         </div>
     );
 };
