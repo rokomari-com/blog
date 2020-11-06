@@ -18,25 +18,6 @@
             }
         }
     }
-    &--meta {
-        margin-top: 22px;
-        margin-bottom: 38px;
-
-        .meta-key {
-            color: $secondaryColor;
-            margin: 0;
-            font-size: 0.8rem;
-            letter-spacing: 1px;
-
-            &:first-child {
-                margin-left: 5px;
-            }
-
-            a {
-                margin: 0px 5px;
-            }
-        }
-    }
     &--text {
         text-align: left;
         line-height: 1.6;
