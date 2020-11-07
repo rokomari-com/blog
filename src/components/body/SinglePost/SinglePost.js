@@ -35,21 +35,38 @@ const SinglePost = () => {
             <p className="single__post--text">
                 Lorem ipsum dolor sit amet, <Link to="/" className="external-link">test link</Link> adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum
             </p>
-            <h2 className="single__post--tagline">
-                This is a responsive template for showing what you think to everyone in the world, in any device. It's that simple!
-            </h2>
+            <div className="single__post--tagline">
+                <h2 className="single__post--subtitle">
+                    This is a responsive template for showing what you think to everyone in the world, in any device. It's that simple!
+                </h2>
+            </div>
             <p className="single__post--text">
                 Lorem ipsum dolor sit amet, <Link to="/" className="external-link">test link</Link> adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Green, fowl gathering first, firmament. In i. Be. Dry green said first seasons. Called above.
             </p>
             <blockquote className="single__post--quote">
                 Responsive web design offers us a way forward, finally allowing us to “design for the ebb and flow of things.”
-                <p>Ethan Marcotte</p>
+                 <p>Ethan Marcotte</p>
             </blockquote>
+
             <h2 className="single__post--subtitle">
                 Web Design
             </h2>
-            <p className="signle__post--text">
+            <p className="single__post--text">
                 Lorem ipsum dolor sit amet, <Link to="/" className="external-link">test link</Link> adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante.
+            </p>
+            <h2 className="single__post--subtitle">JavaScript</h2>
+            <div className="code-area">
+                <code className="code">
+                    const names = ['Jhon', 'Justin', 'Michel']; <br />
+                    names.unshift('Smith'); <br />
+                    console.log(names); <br />// expected output: [ 'Smith', 'Jhon', 'Justin', 'Michel' ]
+                </code>
+            </div>
+            <h2 className="single__post--subtitle">
+                Responsive Design, Goods and Bads
+            </h2>
+            <p className="single__post--text">
+                Lorem ipsum dolor sit amet, <Link to="/" className="external-link">test link</Link> adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum
             </p>
         </div>
     );

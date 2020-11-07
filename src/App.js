@@ -25,12 +25,12 @@ const App = () => {
           </Route>
           <Route exact path="/">
             <PostContainer />
+            <Pagination />
           </Route>
           <Route path="*">
             <NotFound />
           </Route>
         </Switch>
-        <Pagination />
         <Footer />
       </Router>
     </div>
