@@ -1,0 +1,20 @@
+@import "./../../../sass/config.scss";
+
+.single__pagination {
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+
+    h4 {
+        font-size: 0.9rem;
+        font-family: $secondaryFont;
+        color: $secondaryColor;
+    }
+
+    &--item {
+        margin: 0;
+        a {
+            font-size: 0.9rem;
+        }
+    }
+}

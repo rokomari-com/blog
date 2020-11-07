@@ -12,6 +12,7 @@ import {
   Route
 } from "react-router-dom";
 import NotFound from './components/body/NotFound/NotFound';
+import SinglePagination from './components/layouts/SinglePagination/SinglePagination';
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
         <Switch>
           <Route path="/post">
             <SinglePost />
+            <SinglePagination />
           </Route>
           <Route exact path="/">
             <PostContainer />
