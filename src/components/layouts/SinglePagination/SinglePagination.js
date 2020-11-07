@@ -6,11 +6,11 @@ const SinglePagination = () => {
         <ul className="single__pagination justify-content-between">
             <li className="single__pagination--item">
                 <h4>PREVIOUS POST</h4>
-                <a href="/" className="hyperlink-btn"><span class="meta-nav">←</span> Adding A Personal Touch To Your Web Design</a>
+                <a href="/" className="hyperlink-btn"><span className="meta-nav">←</span> Adding A Personal Touch To Your Web Design</a>
             </li>
             <li className="single__pagination--item">
                 <h4 style={{ textAlign: 'right' }}>NEXT POST</h4>
-                <a href="/" className="hyperlink-btn">How To Build Long-Term Client Relationships <span class="meta-nav">→</span></a>
+                <a href="/" className="hyperlink-btn">How To Build Long-Term Client Relationships <span className="meta-nav">→</span></a>
             </li>
         </ul>
     );

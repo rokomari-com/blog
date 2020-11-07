@@ -19,14 +19,14 @@ const Menu = () => {
                         <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
                     </NavDropdown>
                     <NavDropdown title="Portfolio" id="basic-nav-dropdown">
-                        <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.2">Another</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+                        <NavDropdown.Item href="#action/3.4">Action</NavDropdown.Item>
+                        <NavDropdown.Item href="#action/3.5">Another</NavDropdown.Item>
+                        <NavDropdown.Item href="#action/3.6">Something</NavDropdown.Item>
                     </NavDropdown>
                     <NavDropdown title="Gallery" id="basic-nav-dropdown">
-                        <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.2">Another</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+                        <NavDropdown.Item href="#action/3.7">Action</NavDropdown.Item>
+                        <NavDropdown.Item href="#action/3.8">Another</NavDropdown.Item>
+                        <NavDropdown.Item href="#action/3.9">Something</NavDropdown.Item>
                     </NavDropdown>
                     <Nav.Link href="#link">Contact</Nav.Link>
                     <Form inline>

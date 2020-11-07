@@ -12,7 +12,7 @@ const SinglePost = () => {
     return (
         <div className="single__post">
             <h1 className="single__post--title">
-                Use MySQL in a Spring Boot application
+                Learning React as a Modern Web Framework
             </h1>
 
             <PostMeta metaData={metaData} /> {/* Passed dummy data as props */}

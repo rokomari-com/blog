@@ -4,7 +4,7 @@
     border-style: solid;
     border-width: 1px 0;
     border-color: #eee;
-    padding: .25rem 1rem !important;
+    padding: 0.25rem 1rem !important;
     align-items: center;
     font-family: $secondaryFont;
     a.nav-link {
@@ -20,7 +20,7 @@
         }
     }
     .home-btn {
-        color: #C30 !important;
+        color: #c30 !important;
         margin-left: 0 !important;
         padding-left: 0 !important;
     }
@@ -32,6 +32,10 @@
         padding: 10px 5px 10px 1.4em;
         font-size: 0.9rem;
         cursor: text;
+
+        &:hover {
+            color: #777;
+        }
     }
     .submit-icon {
         border: 0px !important;
@@ -40,6 +44,50 @@
         &:focus {
             outline: 0 !important;
             box-shadow: none;
+        }
+    }
+    .dropdown-menu {
+        top: 2.75em;
+        margin: -2px 0 0 0;
+        left: 1em;
+        width: 160px;
+        z-index: 310;
+        padding: 0;
+        border: 1px solid $secondaryBorderColor;
+        border-top: 2px solid lighten(#333333, 13.33);
+        box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+
+        &::after {
+            content: " ";
+            position: absolute;
+            left: 1.6em;
+            bottom: 100%;
+            pointer-events: none;
+            width: 0;
+            height: 0;
+            border-bottom: 12px solid lighten(#333333, 13.33);
+            border-right: 12px solid transparent;
+        }
+
+        .dropdown-item {
+            display: block;
+            padding: 0.5em 1.2em;
+            font-size: 0.95rem;
+            color: lighten($primaryColor, 20);
+            font-family: $secondaryFont;
+            border-bottom: $solidBorder;
+            &:hover {
+                background-color: $hoverBgColor;
+                color: darken($primaryColor, 20.00);
+            }
+            &:active {
+                background-color: $hoverBgColor;
+                color: darken($primaryColor, 20.00);
+            }
+        }
+        .dropdown-item.active {
+            background-color: $hoverBgColor;
+            color: darken($primaryColor, 20.00);
         }
     }
 }
