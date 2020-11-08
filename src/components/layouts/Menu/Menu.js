@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
@@ -7,6 +7,11 @@ import FormControl from 'react-bootstrap/FormControl';
 import './Menu.scss';
 
 const Menu = () => {
+    const [showInput, setShowInput] = useState(false);
+    const handleSubmit = (e) => { 
+        e.preventDefault();
+        setShowInput(false);
+    }
     return (
         <Navbar expand="lg" className="rok-navbar">
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -30,9 +35,10 @@ const Menu = () => {
                     </NavDropdown>
                     <Nav.Link href="#link">Contact</Nav.Link>
                     <Form inline>
-                        <Form.Label>Search</Form.Label>
-                        <FormControl type="text" placeholder="Search Here" className="mr-sm-2 d-none" />
-                        <FormControl type="submit" value="→" className="submit-icon" />
+                        {
+                            showInput ? <FormControl type="text" placeholder="Search Here" className="mr-sm-2" /> : <Form.Label onClick={() => setShowInput(true)}>Search</Form.Label>
+                        }
+                        <FormControl onClick={handleSubmit} type="submit" value="→" className="submit-icon" />
                     </Form>
                 </Nav>
             </Navbar.Collapse>

@@ -46,6 +46,19 @@
             box-shadow: none;
         }
     }
+    .form-control {
+        border: none;
+        border-bottom: $solidBorder;
+        border-radius: 0;
+        font-size: 0.9rem;
+        margin-bottom: 5px;
+
+        &:focus {
+            box-shadow: none;
+            border: none;
+            border-bottom: $solidBorder;
+        }
+    }
     .dropdown-menu {
         top: 2.75em;
         margin: -2px 0 0 0;
