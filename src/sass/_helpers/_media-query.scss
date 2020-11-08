@@ -2,19 +2,21 @@
     Media Queries
 ---------------------------------*/
 
-/* ----- Mobile max-width: 767px ----- */
+/* ----- Mobile - max-width: 767px ----- */
 @mixin largeMobile {
     @media (max-width: 767px) {
         @content;
     }
 }
 
-/* ----- Laptop size 1200px or greater ----- */
-@mixin defaultLaptop {
-    @media (min-width: 1200px) {
+/* ----- Tablet - min-width: 992px ----- */
+@mixin tabletLayout {
+    @media (min-width: 992px) {
         @content;
     }
 }
+
+
 
 /* ----- laptop size 1350px or greater ----- */
 @mixin largeLaptop {
