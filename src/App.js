@@ -21,7 +21,7 @@ const App = () => {
         <Header />
         <Menu />
         <Switch>
-          <Route path="/post">
+          <Route exact path="/post">
             <SinglePost />
             <SinglePagination />
           </Route>
