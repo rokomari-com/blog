@@ -1,5 +1,4 @@
 import React from 'react';
-import './NotFound.scss';
 import PageNotFound from './../../../assets/images/404.png';
 
 const NotFound = () => {
