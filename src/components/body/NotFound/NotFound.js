@@ -1,9 +1,11 @@
 import React from 'react';
 import './NotFound.scss';
+import PageNotFound from './../../../assets/images/404.png';
 
 const NotFound = () => {
+    console.log(PageNotFound);
     return (
-        <div className="notmatch-bg"></div>
+        <img src={PageNotFound} alt="Page Not Found" className="img-fluid" />
     );
 };
 
