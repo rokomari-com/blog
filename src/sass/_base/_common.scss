@@ -2,6 +2,10 @@
 .App {
     width: 80%;
     margin: 0 auto;
+
+    @include largeMobile {
+        width: 90%;
+    }
 }
 .hyperlink-btn {
     color: $primaryColor;

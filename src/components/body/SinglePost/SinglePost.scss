@@ -1,6 +1,7 @@
 @import "./../../../sass/config.scss";
 
 .single__post {
+    max-width: 780px;
     &--title {
         margin-top: 60px;
         text-align: center;
@@ -19,7 +20,7 @@
     &--tagline {
         text-align: center;
         margin: 3em 0;
-        padding: 0em 4em 1em 4em;
+        padding: 0em 2em 1em 2em;
         border-top: $dottedBorder;
         border-bottom: $dottedBorder;
         line-height: 1.6;

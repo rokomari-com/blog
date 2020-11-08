@@ -13,7 +13,7 @@ const Menu = () => {
         setShowInput(false);
     }
     return (
-        <Navbar expand="lg" className="rok-navbar">
+        <Navbar expand="md" className="rok-navbar">
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="m-auto">

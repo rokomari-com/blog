@@ -2,9 +2,9 @@
     Media Queries
 ---------------------------------*/
 
-/* ----- Laptop size 960px or greater ----- */
-@mixin smallLaptop {
-    @media (min-width: 960px) {
+/* ----- Mobile max-width: 767px ----- */
+@mixin largeMobile {
+    @media (max-width: 767px) {
         @content;
     }
 }
