@@ -9,6 +9,13 @@
     }
 }
 
+/* ----- Big Mobile - max-width: 767px ----- */
+@mixin bigMobile {
+    @media (min-width: 600px) {
+        @content;
+    }
+}
+
 /* ----- Tablet - min-width: 992px ----- */
 @mixin tabletLayout {
     @media (min-width: 992px) {

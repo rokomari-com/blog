@@ -1,8 +1,16 @@
-@import './../../../sass/config.scss';
+@import "./../../../sass/config.scss";
 
 .meta-data {
-    margin-top: 22px;
-    margin-bottom: 38px;
+    margin-top: 12px;
+    margin-bottom: 28px;
+    text-align: center;
+
+    @include bigMobile {
+        margin-top: 22px;
+        margin-bottom: 38px;
+        display: flex;
+        justify-content: center;
+    }
 
     .meta-key {
         color: $secondaryColor;
