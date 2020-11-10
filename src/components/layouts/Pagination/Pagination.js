@@ -1,29 +1,30 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Pagination.scss';
 
 const Pagination = () => {
     return (
         <ul className="pagination justify-content-center">
             <li className="pagination--item">
-                <a href="/">First</a>
+                <Link to="/">First</Link>
             </li>
             <li className="pagination--item">
-                <a href="/">«</a>
+                <Link to="/">«</Link>
             </li>
             <li className="pagination--item">
-                <a href="/">1</a>
+                <Link to="/">1</Link>
             </li>
             <li className="pagination--item">
-                <a href="/">2</a>
+                <Link to="/">2</Link>
             </li>
             <li className="pagination--item">
-                <a href="/">3</a>
+                <Link to="/">3</Link>
             </li>
             <li className="pagination--item">
-                <a href="/">»</a>
+                <Link to="/">»</Link>
             </li>
             <li className="pagination--item">
-                <a href="/">Last</a>
+                <Link to="/">Last</Link>
             </li>
         </ul>
     );

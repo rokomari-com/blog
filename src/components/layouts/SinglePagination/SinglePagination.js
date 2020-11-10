@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './SinglePagination.scss';
 
 const SinglePagination = () => {
@@ -6,11 +7,15 @@ const SinglePagination = () => {
         <ul className="single__pagination justify-content-between">
             <li className="single__pagination--item">
                 <h4>PREVIOUS POST</h4>
-                <a href="/" className="hyperlink-btn"><span className="meta-nav">←</span> Adding A Personal Touch To Your Web Design</a>
+                <Link to="/" className="hyperlink-btn">
+                    <span className="meta-nav">←</span> Adding A Personal Touch To Your Web Design
+                </Link>
             </li>
             <li className="single__pagination--item">
                 <h4 className="text-post">NEXT POST</h4>
-                <a href="/" className="hyperlink-btn">How To Build Long-Term Client Relationships <span className="meta-nav">→</span></a>
+                <Link to="/" className="hyperlink-btn">
+                    How To Build Long-Term Client Relationships <span className="meta-nav">→</span>
+                </Link>
             </li>
         </ul>
     );

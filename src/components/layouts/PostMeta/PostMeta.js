@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './PostMeta.scss';
 
 const PostMeta = (props) => {
@@ -6,19 +7,19 @@ const PostMeta = (props) => {
     return (
         <ul className="meta-data">
             <li className="meta-key">posted in
-                    <a href="/" className="hyperlink-btn">
+                <Link to="/" className="hyperlink-btn">
                     { category }
-                </a>
+                </Link>
             </li>
             <li className="meta-key">on
-                    <a href="/" className="hyperlink-btn">
+                <Link to="/" className="hyperlink-btn">
                     { date }
-                </a>
+                </Link>
             </li>
             <li className="meta-key">by
-                    <a href="/" className="hyperlink-btn">
+                <Link to="/" className="hyperlink-btn">
                     { author }
-                </a>
+                </Link>
             </li>
         </ul>
     );
