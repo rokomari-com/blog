@@ -18,6 +18,16 @@
         &:hover {
             border-bottom: $dottedBorder;
         }
+
+        @include largeMobile {
+            margin: 0;
+            width: 100%;
+        }
+    }
+    .dropdown {
+        @include largeMobile {
+            width: 100%;
+        }
     }
     .home-btn {
         color: #c30 !important;
@@ -26,39 +36,58 @@
     }
     .dropdown-toggle::after {
         display: none;
-        // content: " ";
     }
-    label {
-        padding: 10px 5px 10px 1.4em;
-        font-size: 0.9rem;
-        cursor: text;
-
-        &:hover {
-            color: #777;
+    .form-inline {
+        @include largeMobile {
+            width: 100%;
+            justify-content: start;
         }
-    }
-    .submit-icon {
-        border: 0px !important;
-        padding: 0;
 
-        &:focus {
-            outline: 0 !important;
-            box-shadow: none;
+        label {
+            padding: 10px 5px 10px 1.4em;
+            font-size: 0.9rem;
+            cursor: text;
+
+            @include largeMobile {
+                margin: 0px;
+                padding: 0px;
+                margin-right: 8px;
+            }
+
+            &:hover {
+                color: #777;
+            }
         }
-    }
-    .form-control {
-        border: none;
-        border-bottom: $solidBorder;
-        border-radius: 0;
-        font-size: 0.9rem;
-        margin-bottom: 5px;
+        .submit-icon {
+            border: 0px !important;
+            padding: 0;
 
-        &:focus {
-            box-shadow: none;
+            &:focus {
+                outline: 0 !important;
+                box-shadow: none;
+            }
+        }
+        .form-control {
             border: none;
             border-bottom: $solidBorder;
+            border-radius: 0;
+            font-size: 0.9rem;
+            margin-bottom: 5px;
+
+            &:focus {
+                box-shadow: none;
+                border: none;
+                border-bottom: $solidBorder;
+            }
+
+            @include largeMobile {
+                display: inline-block;
+                width: auto;
+                vertical-align: middle;
+            }
         }
     }
+
     .dropdown-menu {
         top: 2.75em;
         margin: -2px 0 0 0;
@@ -70,6 +99,10 @@
         border-top: 2px solid lighten($primaryColor, 13.33);
         box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
 
+        @include largeMobile {
+            width: 100%;
+        }
+
         &::after {
             content: " ";
             position: absolute;
@@ -80,6 +113,10 @@
             height: 0;
             border-bottom: 12px solid lighten($primaryColor, 13.33);
             border-right: 12px solid transparent;
+
+            @include largeMobile {
+                border: 0;
+            }
         }
 
         .dropdown-item {
@@ -91,16 +128,16 @@
             border-bottom: $solidBorder;
             &:hover {
                 background-color: $hoverBgColor;
-                color: darken($primaryColor, 20.00);
+                color: darken($primaryColor, 20);
             }
             &:active {
                 background-color: $hoverBgColor;
-                color: darken($primaryColor, 20.00);
+                color: darken($primaryColor, 20);
             }
         }
         .dropdown-item.active {
             background-color: $hoverBgColor;
-            color: darken($primaryColor, 20.00);
+            color: darken($primaryColor, 20);
         }
     }
 }
